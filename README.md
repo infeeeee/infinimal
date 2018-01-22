@@ -2,7 +2,8 @@
 
 Easy to read hardware monitor skin for [Rainmeter](https://www.rainmeter.net/).
 
-![Screenshot](@Resources/Screenshots/Vertical example.png?raw=true "Screenshot")
+![Screenshot](@Resources/Screenshots/Vertical_example.png?raw=true "Screenshot")
+
 ![Vertical](@Resources/Screenshots/Vertical.png?raw=true "Vertical")
 
 ## Included skins
@@ -36,13 +37,14 @@ Easy to read hardware monitor skin for [Rainmeter](https://www.rainmeter.net/).
 ## Installation
 
 Download the .rmskin package from releases, and open with rainmeter.
+
 The cryptocurrency version only contains those 4 skins.
 
 ## Useage
 
 All settings are in the @Resources\Variables.inc file. Edit with notepad, if something is not clear create an issue.
 
-### HWINFO plugin
+#### HWINFO plugin
 You will need update the HWiNFO IDs included in this skin to match the IDs for your system.  To do this:
 1. ensure HWiNFO is running, with sensors and shared memory active
 2. run the included "HWiNFOSharedMemoryViewer.exe" file in the @Resources\Plugins folder
@@ -57,14 +59,14 @@ The original HWiNFO.inc is included in the @resources\Plugins folder, however no
 You can use the speedfan version for CPU if you want...
 VGA and VRM skins are HWinfo only.
 
-### Buttons
+#### Buttons
 There are 8 button and 4 button skins, both of them has 2 optional configuration.
 Button settings are not in the Variables file. In the Buttons.ini files edit the parameter value of the Measures. 
 More info about how to edit them: https://docs.rainmeter.net/manual/plugins/runcommand/
 The images are autmatically selected from the buttons respective folder, you only have to renam them 1.png 2.png etc. 
 The icons in the theme by default are from https://material.io/icons/. Download icons from this site, the 36px versions will fit perfectly.
 
-### Tips
+#### Tips
 * If you allways want to see the skin, you can reserve an area from maximised windows with the [DesktopWorkArea](https://docs.rainmeter.net/manual/settings/rainmeter-section/#DesktopWorkArea) Rainmeter setting. However this doesn't like if you constantly detach and attach monitors, like I do. I recommend [DesktopCoral](https://www.donationcoder.com/software/mouser/other-windows-apps/desktopcoral) instead, it's much mire consistent and free as well.
 * I use [Wget for Windows](http://gnuwin32.sourceforge.net/packages/wget.htm) for the buttons, I send get requests to my other computers.
 
@@ -73,14 +75,16 @@ The icons in the theme by default are from https://material.io/icons/. Download 
 * When some of the texts don't use the font, I recommend installing it systemwide. Font file location: @Resources\Fonts.
 * The skin is designed for 3 letter coins codes. However some have longer code. If you want to use this, change the barAlign variable in Style.inc to something greater, and refresh all.
 
-##Authors
+## Authors
 
 infeeeee - gyetpet at gmail com
 
 ## Acknowledgments
 
 The font used in the skin is Accidental Residency, created by Tepid Monkey. http://www.tepidmonkey.net/
+
 Volume slider is based on a skin created by UNIGHT(http://unight.deviantart.com/) modded by DISCONNECTVD(http://dscnctvd.deviantart.com/)
+
 Hwinfo skins are based on the example skin by Nick Connors. 
 
 ## License
