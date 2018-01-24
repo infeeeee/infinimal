@@ -36,7 +36,7 @@ Easy to read hardware monitor skin for [Rainmeter](https://www.rainmeter.net/).
 
 ## Installation
 
-Download the .rmskin package from releases, and open with rainmeter.
+Download the .rmskin package from [releases](https://github.com/infeeeee/infinimal/releases/latest), and open with rainmeter.
 
 The cryptocurrency version only contains those 4 skins.
 
