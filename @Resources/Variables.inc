@@ -59,10 +59,10 @@ cpuClick="taskmgr.exe"
 ; VGA
 ; -----------
 
-HWiNFO-GPU0-Usage-SensorId=0xe0002000
+HWiNFO-GPU0-Usage-SensorId=0xe0001800
 HWiNFO-GPU0-Usage-SensorInstance=0x0
 HWiNFO-GPU0-Usage=0x7000000
-HWiNFO-GPU0-Temp-SensorId=0xe0002000
+HWiNFO-GPU0-Temp-SensorId=0xe0001800
 HWiNFO-GPU0-Temp-SensorInstance=0x0
 HWiNFO-GPU0-Temp=0x1000000
 vgaClick="C:\Program Files (x86)\GPU-Z\GPU-Z.exe"
@@ -71,9 +71,11 @@ vgaClick="C:\Program Files (x86)\GPU-Z\GPU-Z.exe"
 ; VRM
 ; -----------
 
-HWiNFO-GPU0-MemUseMB-SensorId=0xe0002000
-HWiNFO-GPU0-MemUsePer-SensorInstance=0x0
-HWiNFO-GPU0-MemUsePer=0x7000008
+HWiNFO-GPU0-MemUse-SensorId=0xe0001800
+HWiNFO-GPU0-MemUse-SensorInstance=0x0
+HWiNFO-GPU0-MemUse=0x8000004
+
+Max-VRM-In-GB=8
 
 ; -----------
 ; Disks
@@ -81,9 +83,10 @@ HWiNFO-GPU0-MemUsePer=0x7000008
 
 disk1=C:
 disk2=D:
-disk3=X:
-disk4=Y:
-disk5=Z:
+disk3=E:
+disk4=X:
+disk5=Y:
+disk6=Z:
 
 ; -----------
 ; LAN
