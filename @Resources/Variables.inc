@@ -76,6 +76,15 @@ HWiNFO-GPU0-MemUsePer-SensorInstance=0x0
 HWiNFO-GPU0-MemUsePer=0x7000008
 
 ; -----------
+; VGA Clock
+; -----------
+
+HWiNFO-GPU0-Clock-SensorId=0xe0001800
+HWiNFO-GPU0-Clock-SensorInstance=0x0
+HWiNFO-GPU0-Clock=0x6000000
+HWiNFO-GPU0-Clock-Unit=MHz
+
+; -----------
 ; Disks
 ; -----------
 
